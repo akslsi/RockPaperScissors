@@ -32,7 +32,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void playPressed(View view) {
         //TODO: Put to start game play activity
+         Intent gamePlay = new Intent(this,PlayActivity.class);
+         startActivity(gamePlay);
+
+
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
